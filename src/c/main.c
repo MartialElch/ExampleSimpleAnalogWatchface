@@ -57,7 +57,7 @@ static void update_display(Layer *s_main_layer, GContext* ctx) {
   gpath_draw_filled(ctx, s_min_hand_path_ptr);
   
   // Fill the path second hand:
-  graphics_context_set_fill_color(ctx, SEC_HAND_COLOR);
+  graphics_context_set_stroke_color(ctx, SEC_HAND_COLOR);
   gpath_draw_outline(ctx, s_sec_hand_path_ptr);
 }
 

@@ -1,0 +1,32 @@
+{
+    "author": "MartialElch",
+    "dependencies": {},
+    "keywords": [],
+    "name": "simple-analog-watchface",
+    "pebble": {
+        "displayName": "Simple Analog Watchface",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Zifferblatt.png",
+                    "name": "ZIFFERBLATT",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "33a29dce-f0c5-45ce-adc8-ec3ef477958a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
